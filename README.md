@@ -1,2 +1,5 @@
 # typeidea
-thefire5 typeidea blog exercise
+
+## ORM
+> ORM(Object Relational Mapping)也就是对象关系映射，其实就是一面向对象的形式才进行数据库的操作，将面向对象中的概念映射到数据库中；比如ORM中的一个类就是数据库的一张表，这个类的每一个实例对象就是这种表的一条数据；而我们知道数据库里有很多类型的字段，比如Char，Varchar，datetime，int，对应的在ORM里面也有体现，比如CharField，PositiveIntegerField，DateTimeField等；不过ORM不是python所特有的，其他的语言也有ORM，在目前的Python的web框架中，Django作为一个较为全面的框架是自带ORM的，而Flask和Toronado要想使用ORM需要借助第三方的ORM库，比如SqlAlchemy。
+
